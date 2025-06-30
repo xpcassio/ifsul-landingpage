@@ -1,0 +1,47 @@
+@import 'bootstrap/scss/bootstrap';
+
+:root {
+  --main-bg-color: #fff;
+  --hero-bg-color: #e9ecef;
+  --navbar-bg-color: #f8f9fa;
+  --navbar-border-color: #dee2e6;
+  --footer-bg-color: #e9ecef;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.landing-hero {
+  background-color: var(--hero-bg-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  border-top: 1px solid var(--navbar-border-color);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
+  padding: 20px 0;
+  text-align: center;
+  // position: fixed;
+  // left: 0;
+  // bottom: 0;
+  width: 100%;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .nav-item {
+    border-top: none;
+  }
+}
