@@ -4,8 +4,14 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import LandingHero from '../components/LandingHero';
 import Navegacao from '../components/Navegacao';
+import { useEffect } from 'react';
 
 export default function Sobre() {
+  // Mudar o título da página
+  useEffect(() => {
+    document.title = 'Landing Page - Sobre';
+  }, []);
+
   return (
     <>
       <LandingHero />

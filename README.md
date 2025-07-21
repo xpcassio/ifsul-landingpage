@@ -19,7 +19,7 @@ Projeto para a disciplina de tecnologias frontend.
 - [React Bootstrap](https://react-bootstrap.github.io/)
   The most popular front-end framework, rebuilt for React.
 
-## O que foi adicionado
+## Tarefa 2
 
 1. Adicionado os seguintes plugins:
 
@@ -44,3 +44,27 @@ Projeto para a disciplina de tecnologias frontend.
 5. Modificado o design dos cards na página sobre.
 
 - Adicionado icone.
+
+## Tarefa 3
+
+1. /contato
+
+- A informação digitada fica salva em localstorage.
+- Que salva toda vez que o usuário digita.
+- Criei uma simulação de envio de dados.
+- Adicionei uma msg de erro ou sucesso.
+
+2. useEffect() para mudar o titulo
+
+- Foi dicionar as 3 páginas essa função.
+- Atualiza apenas uma vez quando carrega a página.
+
+3. Criei o componente de eventos
+
+- Pensei nele como um calendario que mostra os proximos eventos que o possivel artigo vá participar.
+- Tbm utilizei ele como o requisito para receber uma ação de fora.
+- Colocado na página inicial.
+
+4. Função de limpeza
+
+- Já existe no componente do CountDown.tsx na linha 35.
