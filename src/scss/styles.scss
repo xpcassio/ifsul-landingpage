@@ -8,7 +8,11 @@
   --footer-bg-color: #e9ecef;
 }
 
-body {
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
   background-color: var(--main-bg-color);
 }
 

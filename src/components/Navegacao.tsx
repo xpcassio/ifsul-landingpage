@@ -1,6 +1,9 @@
 import { Container } from 'react-bootstrap';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Navegacao() {
+  const location = useLocation();
+
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-light border-top py-0">
@@ -22,19 +25,29 @@ export default function Navegacao() {
           >
             <ul className="navbar-nav">
               <li className="nav-item text-center">
-                <a className="nav-link" aria-current="page" href="#inicio">
+                <Link
+                  className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
+                  aria-current="page"
+                  to="/"
+                >
                   Início
-                </a>
+                </Link>
               </li>
               <li className="nav-item text-center">
-                <a className="nav-link" href="#sobre">
+                <Link
+                  className={`nav-link ${location.pathname === '/sobre' ? 'active' : ''}`}
+                  to="/sobre"
+                >
                   Sobre
-                </a>
+                </Link>
               </li>
               <li className="nav-item text-center">
-                <a className="nav-link" href="#">
+                <Link
+                  className={`nav-link ${location.pathname === '/contato' ? 'active' : ''}`}
+                  to="/contato"
+                >
                   Contato
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

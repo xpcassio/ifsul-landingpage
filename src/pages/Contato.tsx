@@ -1,11 +1,11 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import CountDown from '../components/CountDown';
 import Footer from '../components/Footer';
+import FormContato from '../components/FormContato';
 import Header from '../components/Header';
 import LandingHero from '../components/LandingHero';
 import Navegacao from '../components/Navegacao';
 
-export default function Home() {
+export default function Contato() {
   return (
     <>
       <LandingHero />
@@ -13,7 +13,7 @@ export default function Home() {
 
       <Row className="py-5">
         <Col md={8} lg={5} className="mx-auto">
-          <Header identificacao="countdown" texto="Countdown" />
+          <Header identificacao="contato" texto="Contato" />
           <Container>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -23,7 +23,7 @@ export default function Home() {
               voluptatem!
             </p>
           </Container>
-          <CountDown />
+          <FormContato />
         </Col>
       </Row>
 
