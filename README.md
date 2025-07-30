@@ -45,7 +45,7 @@ Projeto para a disciplina de tecnologias frontend.
 
 - Adicionado icone.
 
-## Tarefa 3
+## Tarefa 4
 
 1. /contato
 
@@ -68,3 +68,11 @@ Projeto para a disciplina de tecnologias frontend.
 4. Função de limpeza
 
 - Já existe no componente do CountDown.tsx na linha 35.
+
+## Tarefa 3
+
+1.  Componente eventos
+
+- Atualizei o componente para ficar mais de acordo com a tarefa.
+- Adicionei uma busca.
+- O componente já utilizaca map para gerar a lista de eventos (filtradas ou não).
